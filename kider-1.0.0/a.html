@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <style>
+        body{
+            background-image: url(img/offerservice.jpg);
+            background-size:100%;
+            background-blend-mode:darken ;
+        }
+        .text-center{
+            text-align: center;
+            padding:05px;
+            margin:10px;
+            font-family:'Ubuntu', sans-serif ;
+            font-size:40px;
+        }
+        .form{
+            width:500px;
+            heigth:2000%;
+            margin:20px auto;
+            text-align: center;
+            border-radius: 20px;
+            border-radius:16px;
+            box-sizing: border-box; 
+            box-shadow: 7px 5px 10px #020202;
+            background-color: rgba(253, 238, 238, 0.7);
+        }
+
+        .form input{
+            text-align: center;
+            margin: 7px 1px;
+            padding: 6px 5px;
+            
+            font-size: 18px;
+            border: 2px solid gray;
+            border-radius: 9px;  
+        }
+        #darkbtn{
+            color:black;
+            border:3px solid black;
+        }
+        #text{
+            text-align: center;
+            font-size: 18px;
+            height:170px;
+            width:409px;
+            border-radius: 2px;
+            color:black;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .Service{
+            top: auto;
+            align-items: center;
+            
+            width: 100%;
+            height:100%;
+            margin: 27px;
+            font-family: 'Ubuntu', sans-serif;
+            padding: 0px;
+        }
+        .in{
+            font-size: 20px;
+            font-weight: li;
+        }
+        .btn{
+            padding:8px 20px;
+            margin:7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color:white;
+            cursor:pointer;
+        }
+        .mar{
+            background-color: white;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section class="Service" id="Service">
+        <div class="mar"><marquee behaviour="alternate" >&#128151Thanks For Visiting&#128151</marquee></div>
+        <h2 class="text-center">SERVICES</h2>
+        <div class="form">
+            <div class="in">Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name" id="name" placeholder="Enter Your Name"></div>
+            <div class="in">Number :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="phone" id="phone" placeholder="Enter Your Phone Number"></div>
+            <div class="in">Event :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="event" id="event" placeholder="Enter Your Event"></div>
+            <div class="in">Date :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Date" id="Date" placeholder="Enter Date and Time"></div>
+            <div class="in">Occation :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="ser" id="ser" placeholder="Mention Service "></div>
+            <div class="in">Ellaborate :&nbsp;&nbsp;&nbsp;<textarea name="text" id="text" cols="20" rows="10" placeholder="Ellaborate Yours Concern"></textarea></div>
+            <div>
+                <button class="btn" class="btn btn-dark" id="darkbtn">Submit</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

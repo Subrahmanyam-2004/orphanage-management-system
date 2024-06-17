@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Ananda Marga Children's Home</title>
+  <link href="img/amlogo.jpg" rel="icon">
+    </head>
+    <style >
+  
+        body {
+            font-family: Arial, sans-serif;font-family: Arial, sans-serif;
+            background-image: url('img/main.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+          
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: wheat;
+            width: 500px;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 10px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px ;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .btn-container {
+            text-align: center;
+        }
+
+        .btn {
+            background-color:orangered;
+            color: #fff;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+    </style>
+    <body>
+        <div class="container">
+            <h2 align="center"><b>Login into our website</b></h2>
+            <form>
+
+                Email&nbsp;:&nbsp;&nbsp;&nbsp;<input type="text"><br><br>
+                Password&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <small><a href="www.gmail.com">Forgot Password?</a></small><input type="password" id="myInput"><br>
+                &nbsp;&nbsp;&nbsp;<input type="checkbox" onclick="myFunction()">Show Password
+                
+                <div class="btn-container">
+                <!--<a href="https://kitkat12.000webhostapp.com/signup1.html"><button type ="submit" class="btn"><strong>Register</strong></button></a>&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+                <button type ="submit" class="btn"><a href="stuprofile.html">Login</a></button><br>
+            </div><br>
+            
+            Don't have an account? <a href="signup.html">SignUp</a></form>
+        </div>
+        
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+    </body>
+</html>
